@@ -1,0 +1,9 @@
+Server is running on port \\.\pipe\57ce462f-1cdd-4295-919d-f093d2f04066.
+Executing (default): IF OBJECT_ID('[Users]', 'U') IS NULL CREATE TABLE [Users] ([UserId] INTEGER NOT NULL IDENTITY(1,1) , [LoginId] NVARCHAR(255) NULL, [FirstName] NVARCHAR(255) NULL, [LastName] NVARCHAR(255) NULL, [Email] NVARCHAR(255) NULL, [Password] NVARCHAR(255) NULL, [CreatedDate] DATETIMEOFFSET NULL, [UpdatedDate] DATETIMEOFFSET NULL, PRIMARY KEY ([UserId]));
+Executing (default): EXEC sys.sp_helpindex @objname = N'[Users]';
+Executing (default): IF OBJECT_ID('[Roles]', 'U') IS NULL CREATE TABLE [Roles] ([RoleId] INTEGER , [RoleName] NVARCHAR(255) NULL, [CreatedDate] DATETIMEOFFSET NULL, [UpdatedDate] DATETIMEOFFSET NULL, PRIMARY KEY ([RoleId]));
+Executing (default): EXEC sys.sp_helpindex @objname = N'[Roles]';
+Executing (default): IF OBJECT_ID('[UserRole]', 'U') IS NULL CREATE TABLE [UserRole] ([RoleId] INTEGER , [UserId] INTEGER , PRIMARY KEY ([RoleId], [UserId]), FOREIGN KEY ([RoleId]) REFERENCES [Roles] ([RoleId]) ON DELETE CASCADE, FOREIGN KEY ([UserId]) REFERENCES [Users] ([UserId]) ON DELETE CASCADE);
+Executing (default): EXEC sys.sp_helpindex @objname = N'[UserRole]';
+Executing (default): SELECT [UserId], [LoginId], [FirstName], [LastName], [Email], [Password], [CreatedDate], [UpdatedDate] FROM [Users] AS [Users] WHERE [Users].[LoginId] = N'nisha' ORDER BY [Users].[UserId] OFFSET 0 ROWS FETCH NEXT 1 ROWS ONLY;
+Executing (default): SELECT [Roles].[RoleId], [Roles].[RoleName], [Roles].[CreatedDate], [Roles].[UpdatedDate], [UserRole].[RoleId] AS [UserRole.RoleId], [UserRole].[UserId] AS [UserRole.UserId] FROM [Roles] AS [Roles] INNER JOIN [UserRole] AS [UserRole] ON [Roles].[RoleId] = [UserRole].[RoleId] AND [UserRole].[UserId] = 2;

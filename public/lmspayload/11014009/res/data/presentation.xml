@@ -1,0 +1,575 @@
+<?xml version="1.0"?>
+<presentation title="01_intro_MEG" width="720.0000000" height="540.0000000" thmbWidth="78.0000000" thmbHeight="59.0000000" frameRate="24.0000000" looping="0" startingSlideShow="" pptVersion="2007" type="compound" hasExternalAudio="0" uid="{05016F7E-E270-4F5A-9EA7-3DF27DA32C0A}">
+	<presenters/>
+	<company logoAssetId="imgAsset0" webSite="" webSiteTarget="_blank"/>
+	<references/>
+	<soundAssets/>
+	<sharedAssetsLibrary src="assets.swf"/>
+	<graphicAssets>
+		<graphicAsset id="imgAsset0" src="logo.swf" embedded="0"/>
+		<graphicAsset id="imgAsset1" src="thmb1.swf" embedded="0"/>
+		<graphicAsset id="imgAsset2" src="thmb2.swf" embedded="0"/>
+		<graphicAsset id="imgAsset3" src="thmb3.swf" embedded="0"/>
+		<graphicAsset id="imgAsset4" src="thmb4.swf" embedded="0"/>
+		<graphicAsset id="imgAsset5" src="thmb5.swf" embedded="0"/>
+		<graphicAsset id="imgAsset6" src="thmb6.swf" embedded="0"/>
+		<graphicAsset id="imgAsset7" src="thmb7.swf" embedded="0"/>
+		<graphicAsset id="imgAsset8" src="thmb8.swf" embedded="0"/>
+		<graphicAsset id="imgAsset9" src="thmb9.swf" embedded="0"/>
+		<graphicAsset id="imgAsset10" src="thmb10.swf" embedded="0"/>
+		<graphicAsset id="imgAsset11" src="thmb11.swf" embedded="0"/>
+		<graphicAsset id="imgAsset12" src="thmb12.swf" embedded="0"/>
+		<graphicAsset id="imgAsset13" src="thmb13.swf" embedded="0"/>
+		<graphicAsset id="imgAsset14" src="thmb14.swf" embedded="0"/>
+		<graphicAsset id="imgAsset15" src="thmb15.swf" embedded="0"/>
+		<graphicAsset id="imgAsset16" src="thmb16.swf" embedded="0"/>
+		<graphicAsset id="imgAsset17" src="thmb17.swf" embedded="0"/>
+		<graphicAsset id="imgAsset18" src="thmb18.swf" embedded="0"/>
+	</graphicAssets>
+	<backgroundSound soundAssetId="" looping="0" volume="1.0000000"/>
+	<narration/>
+	<settings>
+		<navigation>
+			<keyboard enabled="1">
+				<actions>
+					<action name="playPause">
+						<shortcut code="32" control="0" shift="0"/>
+					</action>
+					<action name="nextSlide">
+						<shortcut code="34" control="0" shift="0"/>
+					</action>
+					<action name="previousSlide">
+						<shortcut code="33" control="0" shift="0"/>
+					</action>
+					<action name="nextStep">
+						<shortcut code="13" control="0" shift="0"/>
+					</action>
+					<action name="previousStep">
+						<shortcut code="13" control="0" shift="1"/>
+					</action>
+					<action name="firstSlide">
+						<shortcut code="36" control="1" shift="0"/>
+					</action>
+					<action name="lastSlide">
+						<shortcut code="35" control="1" shift="0"/>
+					</action>
+					<action name="lastViewedSlide">
+						<shortcut code="8" control="0" shift="0"/>
+					</action>
+					<action name="slideStart">
+						<shortcut code="36" control="0" shift="0"/>
+					</action>
+					<action name="slideEnd">
+						<shortcut code="35" control="0" shift="0"/>
+					</action>
+					<action name="seekForward">
+						<shortcut code="39" control="0" shift="0"/>
+					</action>
+					<action name="seekBackward">
+						<shortcut code="37" control="0" shift="0"/>
+					</action>
+					<action name="volumeUp">
+						<shortcut code="38" control="0" shift="0"/>
+					</action>
+					<action name="volumeDown">
+						<shortcut code="40" control="0" shift="0"/>
+					</action>
+					<action name="toggleFullscreen">
+						<shortcut code="70" control="1" shift="0"/>
+					</action>
+				</actions>
+			</keyboard>
+			<mouse enabled="1" target="step"/>
+			<gesture zoom="1"/>
+		</navigation>
+		<skin>
+			<colorSettings>
+				<color id="button.content.normal">#FFFFFF</color>
+				<color id="button.content.over">#FFFFFF</color>
+				<color id="button.face.normal">#777777</color>
+				<color id="button.face.over">#575757</color>
+				<color id="companyLogo.background">#FFFFFF</color>
+				<color id="hyperlink">#097CE7</color>
+				<color id="listItem.face.over">#E8E8E8</color>
+				<color id="listItem.face.pressed">#6E6E6E</color>
+				<color id="listItem.label.over">#000000</color>
+				<color id="listItem.label.pressed">#FFFFFF</color>
+				<color id="listItem.label.visited">#A1A1A1</color>
+				<color id="page.background">#8A8A8A</color>
+				<color id="panel.background">#262626</color>
+				<color id="panel.text">#FFFFFF</color>
+				<color id="player.background">#262626</color>
+				<color id="popup.background">#FFFFFF</color>
+				<color id="progress.background">#262626</color>
+				<color id="progress.loading">#262626</color>
+				<color id="progress.playback">#262626</color>
+				<color id="text">#4D4D4D</color>
+			</colorSettings>
+			<controlPanelSettings>
+				<visible>true</visible>
+				<showOutline>true</showOutline>
+				<showPlayPause>false</showPlayPause>
+				<showRewind>false</showRewind>
+				<showVolumeControl>false</showVolumeControl>
+				<showCCButton>false</showCCButton>
+				<showPrevButton>true</showPrevButton>
+				<showNextButton>true</showNextButton>
+				<showSlideOnlyButton>true</showSlideOnlyButton>
+				<progressBar>
+					<visible>true</visible>
+					<enabled>false</enabled>
+					<showLabels>true</showLabels>
+					<mode>slideTimeline</mode>
+				</progressBar>
+				<navigationMode>bySlides</navigationMode>
+			</controlPanelSettings>
+			<titlePanelSettings>
+				<showLogo>true</showLogo>
+				<visible>true</visible>
+				<buttons>
+					<button type="attachments" visible="false"/>
+					<button type="presenterInfo" visible="false"/>
+					<button type="markerTools" visible="true"/>
+					<button type="notes" visible="false"/>
+					<button type="outline" visible="false"/>
+				</buttons>
+			</titlePanelSettings>
+			<outlinePanelSettings>
+				<numberEntries>false</numberEntries>
+				<highlightViewedEntries>true</highlightViewedEntries>
+				<thumbnails>true</thumbnails>
+				<search>true</search>
+				<multilevel>true</multilevel>
+			</outlinePanelSettings>
+			<sidePanelSettings>
+				<showAtLeft>true</showAtLeft>
+				<showLogo>false</showLogo>
+				<showPresenterInfo>false</showPresenterInfo>
+				<showPresenterVideo>false</showPresenterVideo>
+				<visible>false</visible>
+				<tabsPanel>
+					<showOutline>false</showOutline>
+					<showNotes>false</showNotes>
+				</tabsPanel>
+			</sidePanelSettings>
+		</skin>
+		<appearance fullScreen="1" showSlidePreloader="1"/>
+		<playback autoStart="1" syncWithVideoNarration="1" enableVideoControl="1" resumePresentationPlayback="always"/>
+	</settings>
+	<slides embedded="0">
+		<slide index="0" title="NRCME Plus Online Training System™" titleNormalized="nrcme plus online training system™" src="slide1.swf" size="553426" advanceOnTime="0" framesCount="49" hasEmbeddedFlashClip="0" hidden="0" level="0" advanceOnClick="0" thumbnailAssetId="imgAsset1">
+			<sounds/>
+			<videos/>
+			<transitionEffect name="" duration="0.0000000" soundId="" looped="0"/>
+			<soundCommands/>
+			<videoCommands/>
+			<animationSteps>
+				<step start="0" end="48" playTime="2.0000000" pauseTime="0.0000000"/>
+			</animationSteps>
+			<notes/>
+			<notesNormalized/>
+			<notesHtml/>
+			<text>Introduction to Training Preparing you for the National Registry Effective May 21, 2014
+
+NRCME Plus Online Training System™
+Learning Solutions Powered by Oakstone®
+continuing education | certification | physicians | dentists | allied healthcare | corporate wellness</text>
+		</slide>
+		<slide index="1" title="Welcome" titleNormalized="welcome" src="slide2.swf" size="119956" advanceOnTime="0" framesCount="1" hasEmbeddedFlashClip="0" hidden="0" level="0" advanceOnClick="0" thumbnailAssetId="imgAsset2">
+			<sounds/>
+			<videos/>
+			<transitionEffect name="" duration="0.0000000" soundId="" looped="0"/>
+			<soundCommands/>
+			<videoCommands/>
+			<animationSteps>
+				<step start="0" end="0" playTime="0.0010000" pauseTime="0.0000000"/>
+			</animationSteps>
+			<notes/>
+			<notesNormalized/>
+			<notesHtml/>
+			<text>Welcome
+Congratulations and Welcome to NRCME Plus Online Training System™! 
+
+You are taking the first step to becoming a certified medical examiner on the National Registry. NRCME Plus Online Training System™ provides healthcare providers, MDs, DOs, DCs, NP/APNs, and PAs, the knowledge to become a certified medical examiner and apply the Federal Motor Carrier Safety Administration (FMCSA) driver physical qualifications standards and guidelines.
+
+As a certified medical examiner, you will make important medical certification decisions that will reduce the risk for crashes, injuries, and fatalities among interstate Commercial Motor Vehicle (CMV) drivers.
+
+After you successfully complete our training program, you can immediately print your Certificate of Completion and register for the FMCSA medical examiner certification test. 
+Thank you for helping to make our highways safer and we sincerely appreciate your business.
+
+Kind Regards,
+Your NRCME Plus Online Training System™ Specialists, 
+A Learning Solution Powered by Oakstone www.nrcme.com</text>
+		</slide>
+		<slide index="2" title="About Our Course" titleNormalized="about our course" src="slide3.swf" size="118138" advanceOnTime="0" framesCount="1" hasEmbeddedFlashClip="0" hidden="0" level="0" advanceOnClick="0" thumbnailAssetId="imgAsset3">
+			<sounds/>
+			<videos/>
+			<transitionEffect name="" duration="0.0000000" soundId="" looped="0"/>
+			<soundCommands/>
+			<videoCommands/>
+			<animationSteps>
+				<step start="0" end="0" playTime="0.0010000" pauseTime="0.0000000"/>
+			</animationSteps>
+			<notes/>
+			<notesNormalized/>
+			<notesHtml/>
+			<text>About Our Course
+Fast Facts About Training
+100% Online Training 
+12 Hours for Course Completion
+Unlimited Access to Training
+Self Guided Format in 27 Modules
+1,000+ Slides with 26 Quizzes
+Pre-Test &amp; Post-Test
+FREE! Q&amp;A Deck of Practice Questions
+FREE! Online Resource Library
+Earn AMA PRA Category 1 Credits™
+Earn AANP Contact Hours
+PACE Accredited
+Immediately Print Certificate of Completion Access anywhere internet is available Training course is mobile device ready Equipped with auto save feature Does not require audio or flash player
+NRCME Plus Online Training System™ conforms to FMCSA’s training curriculum modules and topics on regulations and guidelines for conducting CMV driver medical examinations. The content meets or exceeds the eight topics outlined in FMCSA's current core curriculum specification.
+
+FMCSA regulations and guidelines are reviewed regularly and our training system is updated as required. This course was last updated on 01/13/2013.
+FMCSA Training Requirements
+95%
+of our NRCME Plus Participants passed the FMCSA certification test on their first attempt.</text>
+		</slide>
+		<slide index="3" title="NRCME Certification Process" titleNormalized="nrcme certification process" src="slide4.swf" size="15121" advanceOnTime="0" framesCount="1" hasEmbeddedFlashClip="0" hidden="0" level="0" advanceOnClick="0" thumbnailAssetId="imgAsset4">
+			<sounds/>
+			<videos/>
+			<transitionEffect name="" duration="0.0000000" soundId="" looped="0"/>
+			<soundCommands/>
+			<videoCommands/>
+			<animationSteps>
+				<step start="0" end="0" playTime="0.0010000" pauseTime="0.0000000"/>
+			</animationSteps>
+			<notes/>
+			<notesNormalized/>
+			<notesHtml/>
+			<text>NRCME Certification Process
+How Do I Become a Certified Medical Examiner?
+To become a certified medical examiner, you must meet the following eligibility requirements and follow the FMCSA’s administrative requirements to maintain your listing on the National Registry.
+STEP 1
+To become a certified medical examiner, you must be licensed, certified or registered to perform medical examinations in accordance with applicable State laws and regulations, i.e. MD, DO, DC, NP/ANP, or PA.
+ 
+Step 2
+Create your National Registry Account at https://nationalregistry.fmcsa.dot.gov. Once your registration is complete, you will receive a welcome message and a National Registry Number. You will need your National Registry Number to schedule and sit for the FMCSA medical examiner certification test in Step 4 below.
+
+Step 3
+Complete required training from a training program that meets with the FMCSA’s requirements, including (1) training must cover the 8 topics in the FMCSA’s core curriculum specifications, and (2) the training provider must be accredited by a nationally-recognized medical profession organization that provides continuing education credits.
+You can learn more about these requirements by reading the Complete Guide to Medical Examiner Certification on the National Registry website at https://nationalregistry.fmcsa.dot.gov.
+KNOWLEDGE SAVES LIVES REGISTER TODAY!
+medical profession organization that provides continuing education credits.
+Why Wait? You can complete Step 2 today or anytime while you are training. You do not need to finish training to receive your National Registry Number!</text>
+		</slide>
+		<slide index="4" title="NRCME Certification Process (Continued)" titleNormalized="nrcme certification process (continued)" src="slide5.swf" size="4559" advanceOnTime="0" framesCount="1" hasEmbeddedFlashClip="0" hidden="0" level="0" advanceOnClick="0" thumbnailAssetId="imgAsset5">
+			<sounds/>
+			<videos/>
+			<transitionEffect name="" duration="0.0000000" soundId="" looped="0"/>
+			<soundCommands/>
+			<videoCommands/>
+			<animationSteps>
+				<step start="0" end="0" playTime="0.0010000" pauseTime="0.0000000"/>
+			</animationSteps>
+			<notes/>
+			<notesNormalized/>
+			<notesHtml/>
+			<text>NRCME Certification Process (Continued)
+How Do I Become a Certified Medical Examiner?
+Step 4
+Pass the FMCSA medical examiner certification test administered by an FMCSA-authorized private-sector training organization. 100 questions are scored; a passing score is 71% or higher. After the FMCSA confirms the test grading from the site and validates your credentials, they will issue you a National Registry Certificate and your contact information will then be listed on the National Registry Website.
+ 
+Step 5
+To maintain your listing on the National Registry, you must transmit to the FMCSA your CMV Driver Medical Examination Results, submit to periodic random reviews, take a refresher course every 5 years to maintain your certification, and re-certify by passing the NRCME exam every 10 years.
+medical profession organization that provides continuing education credits.
+To become a certified medical examiner, you must meet the following eligibility requirements and follow the FMCSA’s administrative requirements to maintain your listing on the National Registry.
+You can learn more about these requirements by reading the Complete Guide to Medical Examiner Certification on the National Registry website at https://nationalregistry.fmcsa.dot.gov.
+KNOWLEDGE SAVES LIVES REGISTER TODAY!</text>
+		</slide>
+		<slide index="5" title="Accreditation" titleNormalized="accreditation" src="slide6.swf" size="3078" advanceOnTime="0" framesCount="1" hasEmbeddedFlashClip="0" hidden="0" level="0" advanceOnClick="0" thumbnailAssetId="imgAsset6">
+			<sounds/>
+			<videos/>
+			<transitionEffect name="" duration="0.0000000" soundId="" looped="0"/>
+			<soundCommands/>
+			<videoCommands/>
+			<animationSteps>
+				<step start="0" end="0" playTime="0.0010000" pauseTime="0.0000000"/>
+			</animationSteps>
+			<notes/>
+			<notesNormalized/>
+			<notesHtml/>
+			<text>Accreditation
+Accreditation Council for Continuing Medical Education (ACCME): 
+This activity has been planned and implemented in accordance with the Essential Areas and policies of the Accreditation Council for Continuing Medical Education through the joint sponsorship of Oakstone Publishing, LLC and NRCME Training Systems, LLC. Oakstone Publishing, LLC is accredited by the Accreditation Council for Continuing Medical Education to provide medical education for physicians.
+ 
+Oakstone Publishing, LLC designates this enduring material for up to 12 AMA PRA Category 1 Credits™. Physicians should claim only the credit commensurate with the extent of their participation in the activity.
+ 
+American Association of Nurse Practitioners (AANP): 
+This program was planned in accordance with AANP CE Standards and Policies and AANP Commercial Support Standards. This program is approved for 12.0 contact hours of continuing education by the American Association of Nurse Practitioners. Program ID 1305204</text>
+		</slide>
+		<slide index="6" title="Accreditation (Continued)" titleNormalized="accreditation (continued)" src="slide7.swf" size="2654" advanceOnTime="0" framesCount="1" hasEmbeddedFlashClip="0" hidden="0" level="0" advanceOnClick="0" thumbnailAssetId="imgAsset7">
+			<sounds/>
+			<videos/>
+			<transitionEffect name="" duration="0.0000000" soundId="" looped="0"/>
+			<soundCommands/>
+			<videoCommands/>
+			<animationSteps>
+				<step start="0" end="0" playTime="0.0010000" pauseTime="0.0000000"/>
+			</animationSteps>
+			<notes/>
+			<notesNormalized/>
+			<notesHtml/>
+			<text>Accreditation (Continued)
+Providers of Approved Continuing Education (PACE): 
+This program has been certified by PACE for 12 CEU’s in accepting states. PACE serves the Chiropractic profession.
+
+Intended Audience: 
+Medical Doctors, Doctors of Osteopath, Doctors of Chiropractic, Physicians Assistants, Nurse Practitioners, and Advanced Practice Nurses, who are specifically interested in performing CMV driver physical exams and obtaining NRCME certification.</text>
+		</slide>
+		<slide index="7" title="Learning Objectives" titleNormalized="learning objectives" src="slide8.swf" size="2660" advanceOnTime="0" framesCount="1" hasEmbeddedFlashClip="0" hidden="0" level="0" advanceOnClick="0" thumbnailAssetId="imgAsset8">
+			<sounds/>
+			<videos/>
+			<transitionEffect name="" duration="0.0000000" soundId="" looped="0"/>
+			<soundCommands/>
+			<videoCommands/>
+			<animationSteps>
+				<step start="0" end="0" playTime="0.0010000" pauseTime="0.0000000"/>
+			</animationSteps>
+			<notes/>
+			<notesNormalized/>
+			<notesHtml/>
+			<text>Learning Objectives
+After successful completion of NRCME Plus Online Training System™, you will be able to:
+Apply the Federal Motor Carrier Safety Administration (FMCSA) driver physical qualification regulations and advisory criteria to pass the FMCSA certification test for the National Registry of Certified Medical Examiners (NRCME).
+
+Apply the Federal Motor Carrier Safety Administration (FMCSA) driver physical qualification regulations and advisory criteria when performing examinations for CMV drivers and determining medical certification.
+
+Gain specific guidance and understand sources of information for questions on CMV examinations and requisite documentation necessary for such exams.</text>
+		</slide>
+		<slide index="8" title="BONUS! Features" titleNormalized="bonus! features" src="slide9.swf" size="138811" advanceOnTime="0" framesCount="1" hasEmbeddedFlashClip="0" hidden="0" level="0" advanceOnClick="0" thumbnailAssetId="imgAsset9">
+			<sounds/>
+			<videos/>
+			<transitionEffect name="" duration="0.0000000" soundId="" looped="0"/>
+			<soundCommands/>
+			<videoCommands/>
+			<animationSteps>
+				<step start="0" end="0" playTime="0.0010000" pauseTime="0.0000000"/>
+			</animationSteps>
+			<notes/>
+			<notesNormalized/>
+			<notesHtml/>
+			<text>BONUS! Features
+Unique to our training system is the NRCME Plus Online Resource Library with expert panel and conference guidelines, FMCSA forms, FMCSA waiver packets, and sample templates for your practice located in one convenient location. 
+
+This valuable information has been carefully selected to support and supplement your training as well as provide a continuing reference throughout your service as a Certified Medical Examiner.
+
+Enduring Benefit: Your access to the Resource Library is included in your training registration and access to the Library continues even after you have successfully completed your training and printed your certificate. 
+
+Document Formats: All documents in the Resource Library are in PDF format and available for you to download and save to your computer and/or print for convenient reference.
+Online Resource Library</text>
+		</slide>
+		<slide index="9" title="BONUS! Features (Continued)" titleNormalized="bonus! features (continued)" src="slide10.swf" size="34039" advanceOnTime="0" framesCount="1" hasEmbeddedFlashClip="0" hidden="0" level="0" advanceOnClick="0" thumbnailAssetId="imgAsset10">
+			<sounds/>
+			<videos/>
+			<transitionEffect name="" duration="0.0000000" soundId="" looped="0"/>
+			<soundCommands/>
+			<videoCommands/>
+			<animationSteps>
+				<step start="0" end="0" playTime="0.0010000" pauseTime="0.0000000"/>
+			</animationSteps>
+			<notes/>
+			<notesNormalized/>
+			<notesHtml/>
+			<text>Advance to the next slide for helpful user navigation training tips.
+BONUS! Features (Continued)
+Q&amp;A Deck 550+ Questions
+
+Designed with You in Mind – Prepare for May 21, 2014
+ 
+Gain confidence in your ability to pass the FMCSA medical examiner certification test with the most complete and detailed database of practice exam questions available.
+
+Our Q&amp;A Deck will reinforce your learning while you quickly identify which areas require further study with real time grading. 
+“The Q&amp;A Deck really contributed to my success and is an excellent tool for the medical examiner preparing for the FMCSA certification test.” 
+- M. Kaylo, MD, Urgent Care Practice</text>
+		</slide>
+		<slide index="10" title="Helpful Icons" titleNormalized="helpful icons" src="slide11.swf" size="139497" advanceOnTime="0" framesCount="1" hasEmbeddedFlashClip="0" hidden="0" level="0" advanceOnClick="0" thumbnailAssetId="imgAsset11">
+			<sounds/>
+			<videos/>
+			<transitionEffect name="" duration="0.0000000" soundId="" looped="0"/>
+			<soundCommands/>
+			<videoCommands/>
+			<animationSteps>
+				<step start="0" end="0" playTime="0.0010000" pauseTime="0.0000000"/>
+			</animationSteps>
+			<notes/>
+			<notesNormalized/>
+			<notesHtml/>
+			<text>Helpful Icons
+Navigation arrows
+ to advance slides or move backwards
+User Navigation
+Table of Contents icon shows where you are at in the presentation</text>
+		</slide>
+		<slide index="11" title="Features in the Table of Contents" titleNormalized="features in the table of contents" src="slide12.swf" size="191323" advanceOnTime="0" framesCount="1" hasEmbeddedFlashClip="0" hidden="0" level="0" advanceOnClick="0" thumbnailAssetId="imgAsset12">
+			<sounds/>
+			<videos/>
+			<transitionEffect name="" duration="0.0000000" soundId="" looped="0"/>
+			<soundCommands/>
+			<videoCommands/>
+			<animationSteps>
+				<step start="0" end="0" playTime="0.0010000" pauseTime="0.0000000"/>
+			</animationSteps>
+			<notes/>
+			<notesNormalized/>
+			<notesHtml/>
+			<text>Features in the Table of Contents
+Click on the Table of Contents icon to find:
+The slide # in the module. 
+
+See how many slides total are in the module 
+
+Check your progress in the module. 
+User Navigation</text>
+		</slide>
+		<slide index="12" title="After You Complete a Module or Quiz, Closing the Window" titleNormalized="after you complete a module or quiz, closing the window" src="slide13.swf" size="119757" advanceOnTime="0" framesCount="1" hasEmbeddedFlashClip="0" hidden="0" level="0" advanceOnClick="0" thumbnailAssetId="imgAsset13">
+			<sounds/>
+			<videos/>
+			<transitionEffect name="" duration="0.0000000" soundId="" looped="0"/>
+			<soundCommands/>
+			<videoCommands/>
+			<animationSteps>
+				<step start="0" end="0" playTime="0.0010000" pauseTime="0.0000000"/>
+			</animationSteps>
+			<notes/>
+			<notesNormalized/>
+			<notesHtml/>
+			<text>After You Complete a Module or Quiz, Closing the Window 
+User Navigation
+To exit after completing a module or quiz:
+Close the window by selecting the red “Close Box” at the bottom of the screen, or
+Click the “Close this Window” blue text
+Do not click the “Red X” at the top right of window.</text>
+		</slide>
+		<slide index="13" title="Viewing Your Progress" titleNormalized="viewing your progress" src="slide14.swf" size="126427" advanceOnTime="0" framesCount="1" hasEmbeddedFlashClip="0" hidden="0" level="0" advanceOnClick="0" thumbnailAssetId="imgAsset14">
+			<sounds/>
+			<videos/>
+			<transitionEffect name="" duration="0.0000000" soundId="" looped="0"/>
+			<soundCommands/>
+			<videoCommands/>
+			<animationSteps>
+				<step start="0" end="0" playTime="0.0010000" pauseTime="0.0000000"/>
+			</animationSteps>
+			<notes/>
+			<notesNormalized/>
+			<notesHtml/>
+			<text>Viewing Your Progress
+You can view your completed module in the Welcome Screen and when you are ready to start a new module, click the “Start” button. 
+
+Remember: You must complete each module/quiz in the order presented and can not skip sequential modules in the training course.
+
+User Navigation</text>
+		</slide>
+		<slide index="14" title="After You Complete all Training Modules" titleNormalized="after you complete all training modules" src="slide15.swf" size="122052" advanceOnTime="0" framesCount="1" hasEmbeddedFlashClip="0" hidden="0" level="0" advanceOnClick="0" thumbnailAssetId="imgAsset15">
+			<sounds/>
+			<videos/>
+			<transitionEffect name="" duration="0.0000000" soundId="" looped="0"/>
+			<soundCommands/>
+			<videoCommands/>
+			<animationSteps>
+				<step start="0" end="0" playTime="0.0010000" pauseTime="0.0000000"/>
+			</animationSteps>
+			<notes/>
+			<notesNormalized/>
+			<notesHtml/>
+			<text>After You Complete all Training Modules
+Take the NRCME Post-Test
+Complete the Evaluation
+Print your Certificate of Completion
+Remember: You must first register for your unique National Registry number on the FMCSA National Registry site before you can schedule your certification exam. Visit www.nrcme.com for helpful hints!
+User Navigation</text>
+		</slide>
+		<slide index="15" title="Customer Support &amp; Useful Links" titleNormalized="customer support &amp; useful links" src="slide16.swf" size="49170" advanceOnTime="0" framesCount="1" hasEmbeddedFlashClip="0" hidden="0" level="0" advanceOnClick="0" thumbnailAssetId="imgAsset16">
+			<sounds/>
+			<videos/>
+			<transitionEffect name="" duration="0.0000000" soundId="" looped="0"/>
+			<soundCommands/>
+			<videoCommands/>
+			<animationSteps>
+				<step start="0" end="0" playTime="0.0010000" pauseTime="0.0000000"/>
+			</animationSteps>
+			<notes/>
+			<notesNormalized/>
+			<notesHtml/>
+			<text>Customer Support &amp; Useful Links
+ 
+ NRCME Plus Online Training System™ Contact Hours of Operation
+ NRCME Plus Online Training System™ Contact Hours of Operation
+NRCME Customer Service: 800.633.4743
+For general training program and NRCME inquiries
+Mon - Fri
+7 am – 7 pm (CT)
+Technical Support: service@oakstone.com 
+24/7
+Useful Links
+Useful Links
+FMCSA Account : Register with FMCSA to create your account; must register before taking FMCSA certification test – https://nationalregistry.fmcsa.dot.gov/NRPublicUI/MedExRegister.seam
+
+National Registry Final Rule: Read more about the National Registry final rule, https://www.federalregister.gov/articles/2012/04/20/2012-9034/national-registry-of-certified-medical-examiners 
+
+National Registry Updates: Join the National Registry Listserv and receive updates and information about FMCSA medical programs – http://nrcme.fmcsa.dot.gov/ContactNR.aspx 
+
+FMCSA Testing Facility: Find a testing facility near you to take the FMCSA certification test – https://nationalregistry.fmcsa.dot.gov/NRPublicUI/home.seam and click on “Find a Testing Organization” (in the “Medical Examiner” box in right-hand column); or contact PSI Exams Online at http://nrcme.psiexams.com/ or 800-733-9267
+FMCSA Account : Register with FMCSA to create your account; must register before taking FMCSA certification test – https://nationalregistry.fmcsa.dot.gov/NRPublicUI/MedExRegister.seam
+
+National Registry Final Rule: Read more about the National Registry final rule, https://www.federalregister.gov/articles/2012/04/20/2012-9034/national-registry-of-certified-medical-examiners 
+
+National Registry Updates: Join the National Registry Listserv and receive updates and information about FMCSA medical programs – http://nrcme.fmcsa.dot.gov/ContactNR.aspx 
+
+FMCSA Testing Facility: Find a testing facility near you to take the FMCSA certification test – https://nationalregistry.fmcsa.dot.gov/NRPublicUI/home.seam and click on “Find a Testing Organization” (in the “Medical Examiner” box in right-hand column); or contact PSI Exams Online at http://nrcme.psiexams.com/ or 800-733-9267</text>
+		</slide>
+		<slide index="16" title="You Are Ready To Train!" titleNormalized="you are ready to train!" src="slide17.swf" size="100586" advanceOnTime="0" framesCount="1" hasEmbeddedFlashClip="0" hidden="0" level="0" advanceOnClick="0" thumbnailAssetId="imgAsset17">
+			<sounds/>
+			<videos/>
+			<transitionEffect name="" duration="0.0000000" soundId="" looped="0"/>
+			<soundCommands/>
+			<videoCommands/>
+			<animationSteps>
+				<step start="0" end="0" playTime="0.0010000" pauseTime="0.0000000"/>
+			</animationSteps>
+			<notes/>
+			<notesNormalized/>
+			<notesHtml/>
+			<text>You Are Ready To Train!
+To begin your NRCME Plus Online Training System™, the next slide will prompt you to exit out of this Instruction Module. 
+
+Next, you will be prompted to begin assessing your current your current knowledge base of the FMCSA’s physical qualifications regulations and advisory criteria by participating in a set of questions, the Pre-Test.
+ 
+The Pre-Test results will not impact your successful completion of the program, it is designed as a tool for self-assessment. 
+
+A score of 50% or greater is required on the Pre-Test to continue to the next module. After completing the Pre-Test, you will be provided with the questions and correct answers. An email will also be sent immediately with this information to your e-mail address on file. 
+Step One – Take the NRCME Plus Pre-Test
+We wish you a successful training experience and thank you for choosing NRCME Plus Online Training System™. BEST OF LUCK!</text>
+		</slide>
+		<slide index="17" title="End of Module" titleNormalized="end of module" src="slide18.swf" size="2324" advanceOnTime="0" framesCount="1" hasEmbeddedFlashClip="0" hidden="0" level="0" advanceOnClick="1" thumbnailAssetId="imgAsset18">
+			<sounds/>
+			<videos/>
+			<transitionEffect name="" duration="0.0000000" soundId="" looped="0"/>
+			<soundCommands/>
+			<videoCommands/>
+			<animationSteps>
+				<step start="0" end="0" playTime="0.0010000" pauseTime="0.0000000"/>
+			</animationSteps>
+			<notes/>
+			<notesNormalized/>
+			<notesHtml/>
+			<text>End of Module
+You can close this window using browser’s close button.
+You have reached the last slide of this module. However, you should have viewed at least 70% of the slides in the module for it to be considered complete.</text>
+			<branching>
+				<nextSlide>
+					<none/>
+				</nextSlide>
+			</branching>
+		</slide>
+	</slides>
+</presentation>
